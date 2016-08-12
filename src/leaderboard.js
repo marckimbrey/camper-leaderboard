@@ -3,9 +3,10 @@ import LeaderBoardRow from "./leaderboardRow";
 
 export default (props) => {
   let rows = [];
-  props.test.forEach((camper) => {
-    rows.push(<LeaderBoardRow camper={camper} key={camper.name} />);
-  });
+   props.test.forEach((camper) => {
+     rows.push(<LeaderBoardRow camper={camper} key={camper.username} />);
+   });
+
   return (
     <table>
       <thead>

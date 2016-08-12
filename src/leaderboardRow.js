@@ -3,9 +3,9 @@ import React from "react";
 export default (props) => {
   return (
     <tr>
-      <td>{props.camper.name}</td>
-      <td>{props.camper.lastMonth}</td>
-      <td>{props.camper.AllTime}</td>
+      <td>{props.camper.username}</td>
+      <td>{props.camper.recent}</td>
+      <td>{props.camper.alltime}</td>
     </tr>
   );
 }
