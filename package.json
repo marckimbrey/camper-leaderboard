@@ -1,5 +1,6 @@
 {
   "name": "camper-leaderboard",
+  "homepage": "http://marckimbrey.github.io/camper-leaderboard",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
