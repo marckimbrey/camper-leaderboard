@@ -1,5 +1,21 @@
+// base styles
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+
+  a {
+    color: #20e;
+    text-decoration: none;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 1em auto;
+
+  }
 }
+
+// app styles
+@import './_app.scss';

@@ -12,6 +12,9 @@ export default (props) => {
     <table>
       <thead>
         <tr>
+          <th colSpan="4" >Camper Leaderboard</th>
+        </tr>
+        <tr>
           <th>#</th>
           <th>Camper</th>
           <th><a href="#" onClick={() => {props.fetchNewData(recent)} } >Recent</a></th>
