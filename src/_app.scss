@@ -1,0 +1,47 @@
+// variables
+$even-row-color: #6b6;
+$odd-row-color: #eee;
+$table-background-color: #555;
+
+
+table {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid $table-background-color;
+  background: $table-background-color;
+  th {
+    font-size: 1.2em;
+
+    &:first-of-type {
+      font-size: 1.6em;
+      padding: 0.5em 0;
+    }
+  }
+  .row {
+    height: 50px;
+  }
+  .even-row {
+    background-color: $even-row-color;
+  }
+
+  .odd-row {
+    background: $odd-row-color;
+  }
+  .username{
+    text-align: left;
+      a {
+      display: block;
+
+      span {
+        margin-left: 10px;
+      }
+    }
+    .profile-pic {
+      width: 40px;
+      height:40px;
+      margin: 5px;
+      vertical-align: middle;
+    }
+  }
+}
